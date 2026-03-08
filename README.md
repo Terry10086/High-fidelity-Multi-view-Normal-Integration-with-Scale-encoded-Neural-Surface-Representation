@@ -17,6 +17,9 @@ pip install -r requirements.txt
 ```
 Both work, but the requirements.txt file contains some unnecessary packages.
 
+# Data
+Real-world data caption: [link(Baidu Yun) not yet]()
+
 # Training
 ```bash
 python exp_runner.py --case $OBJ_NAME --conf $CONF_NAME
