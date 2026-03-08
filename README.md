@@ -19,7 +19,8 @@ Both work, but the requirements.txt file contains some unnecessary packages.
 
 # Training
 ```bash
-python exp_runner.py --case $object_name --conf exp1.conf
+python exp_runner.py --case $OBJ_NAME --conf $CONF_NAME
+python exp_runner.py --case angle --conf ./confs/exp1.conf
 ```
 
 # Acknowledgements
