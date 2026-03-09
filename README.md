@@ -20,6 +20,15 @@ Both work, but the requirements.txt file contains some unnecessary packages.
 # Data
 Real-world data caption: [link(Baidu Yun) not yet]()
 
+# Cite
+@article{yang2026multi,
+  title={High-fidelity Multi-view Normal Integration with Scale-encoded Neural Surface Representation},
+  author={Tongyu Yang, Heng Guo, Yasuyuki Matsushita, Fumio Okura, Yu Luo, and Xin Fan},
+  journal={COMPUTER GRAPHICS Forum},
+  year={2026},
+}
+
+
 # Training
 ```bash
 python exp_runner.py --case $OBJ_NAME --conf $CONF_NAME
