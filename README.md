@@ -26,6 +26,7 @@ Both close-up and regular views are contained within the same dataset. To train 
 # Training
 ```bash
 python exp_runner.py --case $OBJ_NAME --conf $CONF_NAME
+# For example
 python exp_runner.py --case angle --conf ./confs/exp1.conf
 ```
 
