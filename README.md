@@ -21,7 +21,7 @@ Both work, but the requirements.txt file contains some unnecessary packages.
 Real-world data caption: [link(Baidu Yun)](https://pan.baidu.com/s/1f5S9ba__QjmJVjWqHeQQ4g?pwd=7qst)
 Password: 7qst
 
-The close-up views and regular views are in the same dataset. You could exclude close-up views from training by modifying *exclude_views* in the config file. 
+Both close-up and regular views are contained within the same dataset. To train the model exclusively on regular views, please update the *exclude_views* parameter in the configuration file to filter out the close-up perspectives. 
 
 # Training
 ```bash
