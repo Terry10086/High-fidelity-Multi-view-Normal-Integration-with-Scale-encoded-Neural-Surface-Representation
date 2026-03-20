@@ -18,8 +18,10 @@ pip install -r requirements.txt
 Both work, but the requirements.txt file contains some unnecessary packages.
 
 # Data
-Real-world data caption: [link(Baidu Yun) not yet]()
+Real-world data caption: [link(Baidu Yun)](https://pan.baidu.com/s/1f5S9ba__QjmJVjWqHeQQ4g?pwd=7qst)
+Password: 7qst
 
+The close-up views and regular views are in the same dataset. You could exclude close-up views from training by modifying *exclude_views* in the config file. 
 
 # Training
 ```bash
